@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background-image: url("./img/fundo\ list.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+
+
+.container {
+    width: 500px;
+    background-color: rgb(101, 96, 96);
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 32rem;
+    margin-top: 12rem;
+    opacity: 0.9;
+    border: 2px solid white;
+
+}
+
+
+.inp {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+}
+
+.btn {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 10px;
+    font-size: 18px;
+    background-color: rgb(83, 7, 93);
+    color: white;
+    float: right;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+
+
+}
+
+
+.list-Ul {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.list-Li {
+    background-color: rgb(225, 95, 239);
+    box-shadow: 1px 5px 10px rgba(188, 181, 181, 0.897);
+    border-radius: 5px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border: 1px solid black;
+
+
+}
+
+
+p {
+    font-size: 22px;
+}
+
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: 0.6s ease-in;
+}
+
+.list-Li:hover img {
+    opacity: 1;
+}
+
+
+
+
+.concluir {
+    background-color: rgb(235, 190, 221);
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+@media (max-width: 1490px) {
+    body {
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 274px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        height: 460px;
+        margin-top: 10%;
+        background-color: transparent;
+       
+
+
+    }
+
+    .list-Li {
+        height: 32px;
+        margin:  12px auto;
+    }
+
+    .inp {
+
+        width: 100%;
+        border: 1px solid black;
+         
+    }
+
+    .btn {
+        width: 200px;
+        margin: 18px;
+
+
+
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 274px;
+        display: block;
+        margin: 0 auto;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+
+        margin: auto;
+    }
+}
